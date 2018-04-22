@@ -2721,9 +2721,9 @@
 
 		.main.style2.mountain {
 			background-color: #333;
-			color: rgba(255, 255, 255, 0.75);
+			color: rgba(255, 255, 255, 0.80);
 			background-attachment: fixed,							fixed;
-			background-image: url("images/overlay1.png"), url("../../images/mountain_cropped.jpg");
+			background-image: url("images/overlay1.png"), url("../../images/mountain_bmedium.jpg");
 			background-size: auto,							cover;
 		}
 
@@ -2731,17 +2731,18 @@
 			display: block !important;
             visibility: visible !important;
             overflow: hidden !important;
+            background-color: #2d252e !important;
+            pointer-events: none !important;
+            
+            top: 50% !important;
+            left: 50% !important;
             min-width: 100% !important; 
             min-height: 100% !important; 
             width: auto !important;
             height: auto !important;
-            background-color: #2d252e !important;
-            pointer-events: none !important;
             padding-left: 0 !important;
             
             position: absolute !important;
-            top: 50% !important;
-            left: 50% !important;
             transform: translate(-50%,-50%) !important;
 		}
 
@@ -2828,6 +2829,7 @@
 			.main.style2 .icon.major {
 				color: #ffffff;
 			}
+
 /* Header */
 
 	#header {
@@ -2835,8 +2837,9 @@
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
-		background-position: top left,						center center,					center center;
+        background-image: url("images/game_background.png");
+		/*background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);*/
+		background-position: top center,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		overflow: hidden;
 		position: relative;
