@@ -2837,7 +2837,7 @@
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-        background-image: url("images/game_background.png");
+        background-image: url("images/sky.png");
 		/*background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);*/
 		background-position: top center,						center center,					center center;
 		background-size: auto,							cover,							cover;
@@ -3019,14 +3019,15 @@
 	}
 
 
+
 /* Team */
 
-    .team-card{
+    .card{
         box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
         background-color:  rgba(255,255,255,0.25);
     }
 
-    .team-card:hover{
+    .card:hover{
         box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
     }
   
